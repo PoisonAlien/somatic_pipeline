@@ -21,7 +21,7 @@ NOW=$(date)
 echo -e "Started run\t$NOW" 
 
 samtools mpileup -B -f $REFFILE -q 15 -L 10000 -d 10000 $NORMALBAM $TUMORBAM |
-java -Xmx16g -d64 -jar $VARSCAN somatic -mpileup $bn --min-coverage-normal 6 --min-coverage-tumor 8 --min-var-freq 0.02 --strand-filter 1
+java -Xmx16g -d64 -jar $VARSCAN somatic -mpileup $bn --min-coverage-normal 10 --min-coverage-tumor 14 --min-var-freq 0.02 --strand-filter 1
 
 echo -e "processing raw output \n"
 

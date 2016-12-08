@@ -1,5 +1,9 @@
 ###This is the repository of code used for alignment and variant detection for APL sequencing project.
 
+Madan, V., et al., Comprehensive mutational analysis of primary and relapse acute promyelocytic leukemia. Leukemia, 2016. doi: 10.1038/leu.2016.69. PMID: [27063598](https://www.ncbi.nlm.nih.gov/pubmed/27063598)
+
+
+
 #### Parameters used for alignment and variant detection are hardcoded into the script. May have to edit accordingly.
 
 #### Alignment:
